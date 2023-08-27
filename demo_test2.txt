@@ -1,0 +1,16 @@
+<img class="image1" src="img/top_box.png" />
+<ul>
+<li>
+<a href="#inline">Controls</a>
+</li>
+<li>
+<a href="#inline">Display</a>
+</li>
+<li>
+<a href="#inline">Audio</a>
+</li>
+<li>
+<a id="main_menu" href="#inline">Main Menu</a>
+</li>
+</ul>
+<img class="image2" src="img/top_box.png" />

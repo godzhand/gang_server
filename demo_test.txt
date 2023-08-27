@@ -1,0 +1,10 @@
+<img class="image1" src="img/top_box.png" />
+<ul>
+<li class="info">
+the current storage device was removed. Please select a new storage device to continue with saving or loading.
+</li>
+<li>
+<a id="test2" href="#inline">Controller Options</a>
+</li>
+</ul>
+<img class="image2" src="img/top_box.png" />

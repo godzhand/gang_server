@@ -1,0 +1,23 @@
+<div class="overlay"></div>
+<img class="image1" src="img/top_box.png" />
+<ul>
+<li>
+<a id="test" href="#inline">Load Game</a>
+</li>
+<li>
+<a id="Lobby" href="#inline">Multiplayer Pre-Game Lobby</a>
+</li>
+<li>
+<a href="#inline">Player Creation</a>
+</li>
+<li>
+<a href="#inline">Wardrobe</a>
+</li>
+<li>
+<a id="test2" href="#inline">Controller Options</a>
+</li>
+<li>
+<a href="#inline">Exit</a>
+</li>
+</ul>
+<img class="image2" src="img/top_box.png" />

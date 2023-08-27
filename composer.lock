@@ -1,0 +1,58 @@
+{
+    "_readme": [
+        "This file locks the dependencies of your project to a known state",
+        "Read more about it at https://getcomposer.org/doc/01-basic-usage.md#installing-dependencies",
+        "This file is @generated automatically"
+    ],
+    "content-hash": "c3ce84213e761afbb929efd3f9386e49",
+    "packages": [
+        {
+            "name": "openxbl/openxbl",
+            "version": "v2.0-beta",
+            "source": {
+                "type": "git",
+                "url": "https://github.com/OpenXBL/OpenXBL-PHP.git",
+                "reference": "a8cd550dd77f18a545b538942cff530aa145014b"
+            },
+            "dist": {
+                "type": "zip",
+                "url": "https://api.github.com/repos/OpenXBL/OpenXBL-PHP/zipball/a8cd550dd77f18a545b538942cff530aa145014b",
+                "reference": "a8cd550dd77f18a545b538942cff530aa145014b",
+                "shasum": ""
+            },
+            "require-dev": {
+                "phing/phing": "^2.14",
+                "phpdocumentor/phpdocumentor": "2.*",
+                "phpunit/phpunit": "4.*",
+                "squizlabs/php_codesniffer": "2.*"
+            },
+            "type": "library",
+            "autoload": {
+                "psr-4": {
+                    "OpenXBL\\": "src/"
+                }
+            },
+            "notification-url": "https://packagist.org/downloads/",
+            "license": [
+                "MIT"
+            ],
+            "description": "Wrapper for OpenXBL",
+            "support": {
+                "issues": "https://github.com/OpenXBL/OpenXBL-PHP/issues",
+                "source": "https://github.com/OpenXBL/OpenXBL-PHP/tree/v2.0-beta"
+            },
+            "time": "2017-08-29T19:40:56+00:00"
+        }
+    ],
+    "packages-dev": [],
+    "aliases": [],
+    "minimum-stability": "dev",
+    "stability-flags": {
+        "openxbl/openxbl": 10
+    },
+    "prefer-stable": true,
+    "prefer-lowest": false,
+    "platform": [],
+    "platform-dev": [],
+    "plugin-api-version": "2.1.0"
+}

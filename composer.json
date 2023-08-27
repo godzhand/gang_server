@@ -1,0 +1,6 @@
+{
+ "minimum-stability": "dev", "prefer-stable": true,
+ "require": {
+  "openxbl/openxbl": "^2.0@beta"
+ }
+}

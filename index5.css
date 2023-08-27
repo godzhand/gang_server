@@ -1,0 +1,142 @@
+@charset "utf-8";
+ /* Fixed sidenav, full height */
+
+.center {
+	text-align: center;
+}
+#mainContent {
+	text-align: center;
+}
+body {
+	background-color: #000;
+	color: #fff;
+}
+
+#container {
+	color: #fff;
+}
+.sidenav {
+  height: 100%;
+  width: 200px;
+  position: relative;
+  top: 0;
+  left: 0;
+  background-color: #000;
+  overflow-x: hidden;
+	margin-right: 20px;
+	border-top: solid 70px;
+	border-bottom: solid 70px;
+    border-image: url("images/info_box2.png") stretch 4;
+
+}
+.flex-child {
+    flex: 1;
+	
+	
+}  
+
+.messenger_status { 
+ position: relative;
+	bottom:0px;
+	right: 0px;
+	
+}
+.messenger_box {
+	width: 243px;
+	height: 283px;
+	border: solid 9px;
+	border-image: url("images/ill_wireless.png") stretch 50;
+	color: #01D7F1;
+	background-color: #000;
+	position: absolute;
+	bottom: 0px;
+	right: 0px;
+	z-index: 1;
+	text-align: center;
+	
+}
+.messenger_statusbar {
+	position: absolute;
+	bottom:0px;
+	right: 0px;
+	
+}
+
+
+/* Style the sidenav links and the dropdown button */
+.sidenav a, .dropdown-btn {
+  padding: 6px 8px 6px 16px;
+  text-decoration: none;
+  font-size: 10px;
+  color: #818181;
+  display: block;
+  border: none;
+  background: none;
+  width:100%;
+  text-align: left;
+  cursor: pointer;
+  outline: none;
+}
+.sidenav ul {
+	list-style-type: none;
+}
+/* On mouse-over */
+.sidenav a:hover, .dropdown-btn:hover {
+  color: #06E304;
+}
+.lastcoumn {
+	text-align: center;
+	
+}
+/* Main content */
+.main {
+  font-size: 10px; /* Increased text to enable scrolling */
+  padding: 0px 0px;
+	height: 300px;
+	overflow: auto;
+	border: solid 9px;
+    border-image: url("images/info_box2.png") stretch 30;
+}
+
+/* Element | http://98.194.130.207/gang_server/index5.php */
+
+.main {
+  /* border-image: url(images/saintsrow.png'\); */
+  /* border-image: url(images/saintsrow.png"\); */
+  background: black;
+	margin-top:20px;
+}
+
+/* Add an active class to the active dropdown button */
+.active {
+  background-color: green;
+  color: white;
+}
+
+/* Dropdown container (hidden by default). Optional: add a lighter background color and some left padding to change the design of the dropdown content */
+.dropdown-container {
+  display: none;
+  background-color: #262626;
+  padding-left: 8px;
+}
+
+/* Optional: Style the caret down icon */
+.fa-caret-down {
+  float: right;
+  padding-right: 8px;
+} 
+#container {
+}
+.content1 {
+	display: flex;
+	
+}
+#container .content1 .main.flex-child {
+}
+#container .content1 .main.flex-child {
+}
+#TOD { 
+	border: solid 6px;
+    border-image: url("images/info_box2.png") stretch 3;
+}
+

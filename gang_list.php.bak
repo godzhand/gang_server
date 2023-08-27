@@ -1,0 +1,80 @@
+ <?php
+ 	session_start();  
+include 'includes/connection.php';
+$_SESSION['last_page'] = $_SESSION['current_page'];
+$_SESSION['current_page'] = $_SERVER['PHP_SELF'];
+
+	if (isset($_SESSION['username']) && isset($_SESSION['Gang_ID'])) {
+		$username = $_SESSION['username'];
+		$gangidx = $_SESSION['Gang_ID'];
+		$gangname = $_SESSION['Gang_Name'];
+$sql = "SELECT a.user, a.isOwner, a.isAdmin
+				FROM members a, gangs b
+				WHERE a.gang_id = b.id AND b.id=$gangidx";
+$NOW = date("Y-m-d H:i:s");
+$stmt = $conn->prepare($sql); 
+//$stmt->bind_param("s", $NOW);
+$stmt->execute();
+$result = $stmt->get_result();
+$number_of_gangs = $result->num_rows;
+$gangs =array();
+?>
+<div id="gangs">
+<div id="topbox">
+<img class="image1" src="img/top_box.png" />
+</div>
+ <ul>
+ <h1><?php echo $gangname;?></h1>
+ <table>
+  <tr>
+    <th>Member</th>
+    <th>isAdmin</th>
+    <th>isOwner</th>
+  </tr>
+<?php
+while ($row = $result->fetch_assoc()) {
+	//$current_gang_id = $row['id'];
+	echo "<script>
+ $(document).on('click', '#";
+ echo $row['gang_id'];
+ echo "', function(){
+       $('.menuitems').load('gang_info.php', {'gang_id': '$gangidx'});
+});</script>";
+   echo "<tr><td id='Member_display'><a  onclick='PlaySound()' id='$gangidx' href='#inline'>";
+   echo $row['user'];
+   echo "</a></td><td>";
+   echo $row['isAdmin'];
+   echo "</td><td>";
+   echo $row['isOwner'];
+   echo "</td>";
+   echo "</tr>";
+}
+
+foreach ($gangs as $gang) {
+	
+	 $avatar = $row['Gang_Name'];
+  //echo "<li>$avatar $member</li>";
+}
+if ($number_of_gangs > 0) { 
+$linefeed = implode(",",$gangs);
+}
+	}
+?>
+<tr><td>
+<?php
+echo "<a id='gang_info' href='#inline'>";
+			echo "View Gang info";
+			echo "</a>";
+			?>
+			</td></tr></table>
+<script>
+$('#back').off('click').on('click', function(){
+	PlaySound();
+         $('.menuitems').load('<?php echo $_SESSION['last_page']?>');
+});
+</script>
+<li>
+<a  onclick="PlaySound()" id="main_menu" href="#inline">Main Menu</a>
+</li>
+</ul>
+</div>

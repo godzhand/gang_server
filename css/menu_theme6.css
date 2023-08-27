@@ -1,0 +1,81 @@
+@font-face {
+      font-family: adrip1;
+  src: url(adrip1.ttf);
+  }
+
+a { }
+
+ul {
+	 list-style-type: none;
+	 padding: 20px;
+}
+
+body { 
+background-image: url('../img/saintsrow.jpg');
+}
+
+
+.image1 { 
+
+}
+
+.image0 {
+ width: 350px;
+}
+
+#vid { 
+ object-fit: fill;
+}
+.menu {
+	/* position: absolute; */
+	/* top: 14%; */
+	/* left: 10%; */
+	 ! text-align: center;
+	  /* opacity: .50; /* Standard: FF gt 1.5, Opera, Safari, CSS3 */ */
+    /* filter: alpha(opacity=50); /* IE lt 8 */ */
+    /* -ms-filter: "alpha(opacity=50)"; /* IE 8 */ */
+    /* -khtml-opacity: .50; /* Safari 1.x */ */
+    /* -moz-opacity: .50; /* FF lt 1.5, Netscape */ */
+    /* background-color: #000; */
+}
+#group {
+	 position: absolute;
+	 top: 0px;
+	 left: 0px;
+	 display: -webkit-box;
+	 -webkit-box-pack: center;
+	 -webkit-box-align: center;
+	 
+}
+#Container {
+	position: fixed;
+	top: 0px;
+	left: 0px;
+	
+}
+* {
+	
+}
+.menu ul {
+
+}
+
+.menu li {
+	text-align: center;
+	 font-family: adrip1; 
+     font-size: 30px;
+}
+.menu a:link {
+	 text-decoration: none;
+	 color: #fff;
+
+}
+.menu a:visited {
+	 text-decoration: none;
+	 color: #fff;
+}
+.menu a:hover {
+	 
+	 background-color: black;
+	 color: red;
+}

@@ -1,0 +1,652 @@
+
+
+/* Element | http://98.194.130.207/gang_server/index.php#inline */
+
+.bot_nl {
+  position: relative;
+  left: -10px;
+  transform: scaleY(-1);
+  z-index: 1;
+}
+
+
+/* Element | http://98.194.130.207/gang_server/index.php#inline */
+
+/* Element | http://98.194.130.207/gang_server/index.php#inline */
+
+.top_nl {
+  position: relative;
+  left: -10px;
+}
+
+
+
+#nicknames {
+
+background-color: #000;
+color: white;
+}
+
+.channelNicknameStatus {
+	height: 16px;
+	text-indent: 20px;
+	display: inline-block;
+	font-weight: bold;
+	color: black;
+}
+
+.butterfly {
+	background: url('../../images/butterfly.bmp') no-repeat;
+}
+.goldHammer {
+    background: url('../../images/gold.bmp') no-repeat;
+}
+.brownHammer {
+    background: url('../../images/brown.bmp') no-repeat;
+}
+.participant {
+    background: url('../../images/normal.bmp') no-repeat;
+}
+.message {
+	display: inline-block;
+	text-indent: 20px;
+}
+.gold { /*! border: 1px solid #F2F5A9; */ }
+.brown { border: 1px solid #F5D0A9; }
+.blue { border: none; } /* border: 1px solid #81F7F3; */
+.purple { border: 1px solid purple; }
+
+#channel {
+	
+	overflow-y: scroll;
+	font-family: 'Teko', sans-serif;
+ max-height: 56vh;
+ min-height: 56vh;
+ padding: 2ch;
+ 
+}
+#channelInputwindow {
+	grid-area: inputwindow;
+	align-self: stretch;
+	display: flex;
+	flex-direction: row;
+	align-items: normal;
+}
+
+
+
+
+
+
+.inputBox {
+	height: 4rem;
+	width: -moz-available;
+	flex: max-content;
+	flex: auto;
+	background-color: rgba(17, 0, 0, 0.5);
+	color: rgb(255,255,255);
+	border: solid steelblue 1px;
+	border-image: url("/gang_server/images/info_box.png") stretch 7;
+	white-space: pre-wrap;
+    
+}
+}
+
+.inputBox {
+	height: 2rem;
+	width: -moz-available;
+	flex: max-content;
+    flex: auto;
+}
+
+.infoPane { 
+
+}
+#nicknames { 
+width: 14rem;
+}
+.nickList {
+	
+	/*! opacity: 0.5; */
+	color: #fff;
+	/*! max-height: 100px; */
+	/*! overflow-x: hidden; */
+}
+.nickList ul {
+	margin: 0px;
+	padding: 0px;
+	/*! background: black; */
+	/*! opacity: 0.5; */
+	/*! overflow-x: scroll; */
+}
+.nickList ul li {
+		margin-top: 0px;
+		margin-left: 30px;
+		cursor: pointer; 
+		cursor: hand;
+		/*! overflow-x: scroll; */
+}
+.nickListButterfly {
+	background-image: url('../../images/butterfly.bmp');
+	background-repeat: no-repeat;
+	padding-left: 16px;
+}
+.nickListGoldHammer {
+    background-image: url('../../images/gold.png'), url('../../avatars/1.png');
+	background-repeat: no-repeat no-repeat;
+   background-position: left top;
+height: 66px;
+padding-left: 49px;
+padding-top: 44px;
+}
+}
+.nickListBrownHammer {
+    background-image: url('../../images/brown.bmp');
+	background-repeat: no-repeat;
+	padding-left: 16px;
+}
+.nickListParticipant {
+   background-image: url('../../avatars/0.png');
+   background-repeat: no-repeat;
+padding-left: 54px;
+padding-top: 37px;
+height: 64px;
+}
+#PlayerCount {
+    position: relative;
+    width: 46px;
+    height: 87px;
+    top: 0px;
+    left: 0px;
+    background-image: url('../../Avatars/0.png');
+}
+.nickListParticipant1 {
+   background-image: url('../../avatars/1.png');
+   background-repeat: no-repeat;
+padding-left: 54px;
+padding-top: 37px;
+height: 64px;
+}
+.nickListParticipant2 {
+   background-image: url('../../avatars/2.png');
+   background-repeat: no-repeat;
+padding-left: 54px;
+padding-top: 37px;
+height: 64px;
+}
+.nickListParticipant3 {
+   background-image: url('../../avatars/3.png');
+   background-repeat: no-repeat;
+padding-left: 54px;
+padding-top: 37px;
+height: 64px;
+}
+.nickListParticipant4 {
+   background-image: url('../../avatars/4.png');
+   background-repeat: no-repeat;
+padding-left: 54px;
+padding-top: 37px;
+height: 64px;
+}
+.nickListParticipant5 {
+   background-image: url('../../avatars/5.png');
+   background-repeat: no-repeat;
+padding-left: 54px;
+padding-top: 37px;
+height: 64px;
+}
+.nickListParticipant6 {
+   background-image: url('../../avatars/6.png');
+   background-repeat: no-repeat;
+padding-left: 54px;
+padding-top: 37px;
+height: 64px;
+}
+.nickListParticipant7 {
+   background-image: url('../../avatars/7.png');
+   background-repeat: no-repeat;
+padding-left: 54px;
+padding-top: 37px;
+height: 64px;
+}
+.nickListParticipant8 {
+   background-image: url('../../avatars/8.png');
+   background-repeat: no-repeat;
+padding-left: 54px;
+padding-top: 37px;
+height: 64px;
+
+}
+.nickListParticipant9 {
+   background-image: url('../../avatars/9.png');
+   background-repeat: no-repeat;
+padding-left: 54px;
+padding-top: 37px;
+height: 64px;
+}
+
+
+.nickListParticipant10 {
+   background-image: url('../../avatars/10.png');
+   background-repeat: no-repeat;
+padding-left: 54px;
+padding-top: 37px;
+height: 64px;
+
+}
+.nickListParticipant11 {
+   background-image: url('../../avatars/11.png');
+   background-repeat: no-repeat;
+padding-left: 54px;
+padding-top: 37px;
+height: 64px;
+
+}
+.nickListParticipant12 {
+   background-image: url('../../avatars/12.png');
+   background-repeat: no-repeat;
+padding-left: 54px;
+padding-top: 37px;
+height: 64px;
+}
+
+.nickListParticipant13 {
+   background-image: url('../../avatars/13.png');
+   background-repeat: no-repeat;
+padding-left: 54px;
+padding-top: 37px;
+height: 64px;
+}
+
+.nickListParticipant14 {
+   background-image: url('../../avatars/14.png');
+   background-repeat: no-repeat;
+padding-left: 54px;
+padding-top: 37px;
+height: 64px;
+}
+
+.nickListParticipant15 {
+   background-image: url('../../avatars/15.png');
+   background-repeat: no-repeat;
+padding-left: 54px;
+padding-top: 37px;
+height: 64px;
+}
+
+.nickListParticipant16 {
+   background-image: url('../../avatars/16.png');
+   background-repeat: no-repeat;
+padding-left: 54px;
+padding-top: 37px;
+height: 64px;
+}
+
+.nickListParticipant17 {
+   background-image: url('../../avatars/17.png');
+   background-repeat: no-repeat;
+padding-left: 54px;
+padding-top: 37px;
+height: 64px;
+}
+
+.nickListParticipant18 {
+   background-image: url('../../avatars/18.png');
+   background-repeat: no-repeat;
+padding-left: 54px;
+padding-top: 37px;
+height: 64px;
+}
+
+.nickListParticipant19 {
+   background-image: url('../../avatars/19.png');
+   background-repeat: no-repeat;
+padding-left: 54px;
+padding-top: 37px;
+height: 64px;
+}
+
+.nickListParticipant20 {
+   background-image: url('../../avatars/20.png');
+   background-repeat: no-repeat;
+padding-left: 54px;
+padding-top: 37px;
+height: 64px;
+}
+
+.nickListParticipant21 {
+   background-image: url('../../avatars/21.png');
+   background-repeat: no-repeat;
+padding-left: 54px;
+padding-top: 37px;
+height: 64px;
+}
+
+.nickListParticipant22 {
+   background-image: url('../../avatars/22.png');
+   background-repeat: no-repeat;
+padding-left: 54px;
+padding-top: 37px;
+height: 64px;
+
+}
+.nickListParticipant23 {
+   background-image: url('../../avatars/23.png');
+   background-repeat: no-repeat;
+padding-left: 54px;
+padding-top: 37px;
+height: 64px;
+
+}
+.nickListParticipant24 {
+   background-image: url('../../avatars/24.png');
+   background-repeat: no-repeat;
+padding-left: 54px;
+padding-top: 37px;
+height: 64px;
+
+}
+.nickListParticipant25 {
+   background-image: url('../../avatars/25.png');
+   background-repeat: no-repeat;
+padding-left: 54px;
+padding-top: 37px;
+height: 64px;
+}
+
+
+.nickListParticipant1:hover {
+   background-image: url('../../avatars/1.png');
+   background-repeat: no-repeat;
+padding-left: 54px;
+padding-top: 37px;
+height: 64px;
+}
+select:hover {
+color: #fff;
+background: #ddd;
+}
+.nickListParticipant2:hover {
+   background-image: url('../../avatars/2.png');
+   background-repeat: no-repeat;
+padding-left: 54px;
+padding-top: 37px;
+height: 64px;
+}
+.nickListParticipant3:hover {
+   background-image: url('../../avatars/3.png');
+   background-repeat: no-repeat;
+padding-left: 54px;
+padding-top: 37px;
+height: 64px;
+}
+.nickListParticipant4:hover {
+   background-image: url('../../avatars/4.png');
+   background-repeat: no-repeat;
+padding-left: 54px;
+padding-top: 37px;
+height: 64px;
+}
+.nickListParticipant5:hover {
+   background-image: url('../../avatars/5.png');
+   background-repeat: no-repeat;
+padding-left: 54px;
+padding-top: 37px;
+height: 64px;
+}
+.nickListParticipant6:hover {
+   background-image: url('../../avatars/6.png');
+   background-repeat: no-repeat;
+padding-left: 54px;
+padding-top: 37px;
+height: 64px;
+}
+.nickListParticipant7:hover {
+   background-image: url('../../avatars/7.png');
+   background-repeat: no-repeat;
+padding-left: 54px;
+padding-top: 37px;
+height: 64px;
+}
+.nickListParticipant8:hover {
+   background-image: url('../../avatars/8.png');
+   background-repeat: no-repeat;
+padding-left: 54px;
+padding-top: 37px;
+height: 64px;
+
+}
+.nickListParticipant9:hover {
+   background-image: url('../../avatars/9.png');
+   background-repeat: no-repeat;
+padding-left: 54px;
+padding-top: 37px;
+height: 64px;
+}
+
+
+.nickListParticipant10:hover {
+   background-image: url('../../avatars/10.png');
+   background-repeat: no-repeat;
+padding-left: 54px;
+padding-top: 37px;
+height: 64px;
+
+}
+.nickListParticipant11:hover {
+   background-image: url('../../avatars/11.png');
+   background-repeat: no-repeat;
+padding-left: 54px;
+padding-top: 37px;
+height: 64px;
+
+}
+.nickListParticipant12:hover {
+   background-image: url('../../avatars/12.png');
+   background-repeat: no-repeat;
+padding-left: 54px;
+padding-top: 37px;
+height: 64px;
+}
+
+.nickListParticipant13:hover {
+   background-image: url('../../avatars/13.png');
+   background-repeat: no-repeat;
+padding-left: 54px;
+padding-top: 37px;
+height: 64px;
+}
+
+.nickListParticipant14:hover {
+   background-image: url('../../avatars/14.png');
+   background-repeat: no-repeat;
+padding-left: 54px;
+padding-top: 37px;
+height: 64px;
+}
+
+.nickListParticipant15:hover {
+   background-image: url('../../avatars/15.png');
+   background-repeat: no-repeat;
+padding-left: 54px;
+padding-top: 37px;
+height: 64px;
+}
+
+.nickListParticipant16:hover {
+   background-image: url('../../avatars/16.png');
+   background-repeat: no-repeat;
+padding-left: 54px;
+padding-top: 37px;
+height: 64px;
+}
+
+.nickListParticipant17:hover {
+   background-image: url('../../avatars/17.png');
+   background-repeat: no-repeat;
+padding-left: 54px;
+padding-top: 37px;
+height: 64px;
+}
+
+.nickListParticipant18:hover {
+   background-image: url('../../avatars/18.png');
+   background-repeat: no-repeat;
+padding-left: 54px;
+padding-top: 37px;
+height: 64px;
+}
+
+.nickListParticipant19:hover {
+   background-image: url('../../avatars/19.png');
+   background-repeat: no-repeat;
+padding-left: 54px;
+padding-top: 37px;
+height: 64px;
+}
+
+.nickListParticipant20:hover {
+   background-image: url('../../avatars/20.png');
+   background-repeat: no-repeat;
+padding-left: 54px;
+padding-top: 37px;
+height: 64px;
+}
+
+.nickListParticipant21:hover {
+   background-image: url('../../avatars/21.png');
+   background-repeat: no-repeat;
+padding-left: 54px;
+padding-top: 37px;
+height: 64px;
+}
+
+.nickListParticipant22:hover {
+   background-image: url('../../avatars/22.png');
+   background-repeat: no-repeat;
+padding-left: 54px;
+padding-top: 37px;
+height: 64px;
+
+}
+.nickListParticipant23:hover {
+   background-image: url('../../avatars/23.png');
+   background-repeat: no-repeat;
+padding-left: 54px;
+padding-top: 37px;
+height: 64px;
+
+}
+.nickListParticipant24:hover {
+   background-image: url('../../avatars/24.png');
+   background-repeat: no-repeat;
+padding-left: 54px;
+padding-top: 37px;
+height: 64px;
+
+}
+.nickListParticipant25:hover {
+   background-image: url('../../avatars/25.png');
+   background-repeat: no-repeat;
+padding-left: 54px;
+padding-top: 37px;
+height: 64px;
+}
+
+
+.nickListSelectable:hover {
+
+}
+.nickListSelected {
+	
+}
+.kick {
+	font-weight: bold;
+	color: red;
+}
+.chatEvent {
+	color: #66ff2f;
+}
+.action {
+	font-style: italic;
+	color: purple;
+}
+.whisper {
+	color: purple;
+}
+.quit { 
+	color: #8e8eff;
+}
+.messenger { 
+color: #fff;
+}
+.channelNicknameStatus {
+	height: 16px;
+	text-indent: 20px;
+	display: inline-block;
+	font-weight: bold;
+	color: #fff8f8;
+}
+#nicknames {
+background-color: rgba(300,300,300,0.1);
+}
+
+/* Element | http://98.194.130.207/gang_server/index.php */
+
+#ServerMessage {
+
+  width: 574px;
+  height: 182px;
+  position: absolute;
+  top: 122px;
+  left: 29%;
+  z-index: 1;
+  text-align: center;
+  color: red;
+  background-color: #000;
+  border: 10px solid transparent;
+  border-image: url('../../images/info_box.png') 30 stretch;
+  display: none;
+}
+
+@media only screen and (max-width: 400px) {
+	.chatBody {
+		display: flex;
+		flex-direction: row;
+		
+}
+.infoPane {
+	
+}
+}
+
+
+		.chatBody {
+		display:flex;
+		align-items: baseline;
+}
+
+.chatPane {
+	grid-area: chat;
+}
+.infoPane {
+	grid-area: userlist;
+	
+}
+
+.chatPane { 
+flex: max-content;
+flex: auto;
+}
+
+@media screen and (max-width: 600px) {
+  .channel {
+    background-color: #4f464099;
+  }
+  .chatBody {
+	  display: flex;
+	  flex-direction: column;
+	  border: 13px solid red;
+	  border-image: url('/gang_server/images/ill_wireless.png') stretch 50;
+}
+}

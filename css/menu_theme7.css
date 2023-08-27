@@ -1,0 +1,269 @@
+@font-face {
+      font-family: adrip1;
+  src: url(adrip1.ttf);
+  }
+@import url('https://fonts.googleapis.com/css2?family=Blinker:wght@900&display=swap');
+a { }
+
+.menu ul {
+	 background-color: #000;
+	 opacity: 0.7;
+	 list-style-type: none;
+	 padding: 20px;
+}
+
+body { 
+background-image: url('../img/saintsrow.jpg');
+}
+
+
+.image1 { 
+position: relative;
+top: 42px;
+z-index: 1;
+display: block;
+margin-left: auto;
+margin-right: auto;
+}
+.image2 { 
+ position: relative;
+ bottom: 39px;
+ transform: scaleY(-1);
+ z-index: 1;
+ display: block;
+margin-left: auto;
+margin-right: auto;
+}
+.image0 {
+ display: block;
+ margin-left: auto;
+ margin-right: auto;
+ position: relative;
+ z-index: 1;
+ top: 64px;
+}
+.overlay{
+    display: none;
+    position: fixed;
+    width: 100%;
+    height: 100%;
+    top: 0;
+    left: 0;
+    z-index: 999;
+    background: url("../gifs/spin2.gif") center no-repeat; /* kewizzles spinner */
+}
+/* Turn off scrollbar when body element has the loading class */
+body.loading{
+    overflow: hidden;   
+}
+/* Make spinner image visible when body element has the loading class */
+body.loading .overlay{
+    display: block;
+}
+#vid { 
+ object-fit: fill;
+}
+.info { 
+color: red;
+}
+.menu {
+	/* position: absolute; */
+	/* top: 14%; */
+	/* left: 10%; */
+	 ! text-align: center;
+	  /* opacity: .50; /* Standard: FF gt 1.5, Opera, Safari, CSS3 */ */
+    /* filter: alpha(opacity=50); /* IE lt 8 */ */
+    /* -ms-filter: "alpha(opacity=50)"; /* IE 8 */ */
+    /* -khtml-opacity: .50; /* Safari 1.x */ */
+    /* -moz-opacity: .50; /* FF lt 1.5, Netscape */ */
+    /* background-color: #000; */
+	
+}
+#group {
+	 position: absolute;
+	 top: 0px;
+	 left: 0px;
+	 display: -webkit-box;
+	 -webkit-box-pack: center;
+	 -webkit-box-align: center;
+	   overflow-y: auto;
+}
+#Container {
+	position: fixed;
+	top: 0px;
+	left: 0px;
+	
+}
+
+#VideoDIV { 
+}
+* {
+	
+}
+.menu ul {
+
+}
+h1 {
+	color: white;
+  font-family: 'Blinker', sans-serif;
+  font-size: xx-large;
+}
+label {
+	color: lime;
+    display: inline-block;
+    text-align: center;
+}
+.input-field input[type=submit]:hover {
+  background-color: red; /* Green */
+
+	
+  }
+.input-field input[type=submit] {
+  background-color: gray; /* Green */
+  border: none;
+  color: black;
+  padding: 15px 32px;
+  text-align: center;
+  text-decoration: none;
+  display: inline-block;
+  font-size: 30px;
+    background:#ccc; 
+    border:0 none;
+    cursor:pointer;
+	font-family: adrip1;
+	
+  }
+.menu li {
+	font-family: adrip1; 
+     font-size: 30px;
+	 text-align: center;
+}
+.menu a:link {
+	 text-decoration: none;
+	 color: #fff;
+
+}
+.menu a:visited {
+	 text-decoration: none;
+	 color: #fff;
+}
+.menu a:hover {
+	 
+	 background-color: black;
+	 color: red;
+}
+
+
+ /* Bordered form */
+form {
+  
+}
+
+/* Full-width inputs */
+input[type=text], input[type=password] {
+  width: 100%;
+  padding: 12px 20px;
+  margin: 8px 0;
+  display: -webkit-box;
+  border: 1px solid #ccc;
+  box-sizing: border-box;
+  padding-left: 36px;
+}
+
+/* Set a style for all buttons */
+button {
+  background-color: #04AA6D;
+  color: white;
+  padding: 14px 20px;
+  margin: 8px 0;
+  border: none;
+  cursor: pointer;
+  width: 100%;
+}
+
+/* Add a hover effect for buttons */
+button:hover {
+  opacity: 0.8;
+}
+
+/* Extra style for the cancel button (red) */
+.cancelbtn {
+  width: auto;
+  padding: 10px 18px;
+  background-color: #f44336;
+}
+
+/* Center the avatar image inside this container */
+.imgcontainer {
+  text-align: center;
+  margin: 24px 0 12px 0;
+}
+
+/* Avatar image */
+img.avatar {
+ 
+}
+
+/* Add padding to containers */
+.login_container {
+  padding: 16px;
+}
+
+/* The "Forgot password" text */
+span.psw {
+  float: right;
+  
+}
+span.signup {
+  float: left;
+  margin-right: 10px;
+}
+/* Change styles for span and cancel button on extra small screens */
+@media screen and (max-width: 300px) {
+  span.psw {
+    display: block;
+    float: none;
+  }
+  .cancelbtn {
+    width: 100%;
+  }
+} 
+ .input-icons i {
+            position: absolute;
+        }
+          
+        .input-icons {
+            width: 100%;
+            margin-bottom: 10px;
+        }
+          
+        .icon {
+            padding: 10px;
+            min-width: 40px;
+        }
+          
+        .input-field {
+            width: 100%;
+            padding: 10px;
+            text-align: left;
+        }
+		* {
+  box-sizing: border-box;
+}
+#avatars{
+  width:350px;
+  height: 300px;
+  overflow-y: auto;
+}
+.avatars > input{
+  display: none;
+}
+
+.avatars > input + img{
+  cursor: pointer;
+  border: 2px solid transparent;
+}
+
+.avatars > input:checked + img{
+  border: 2px solid red;
+}

@@ -1,0 +1,67 @@
+
+/* Inline #3 | http://98.194.130.207/gang_server/index2.php?module=archive%C2%A7ion=tutorials */
+
+#menu_box {
+  /* border-image: url(/images/info_box.png'\) 30 stretch; */
+  background-color: #000;
+  border: 10px solid transparent;
+  border-image: url('../images/info_box.png') 30 stretch;
+  font-family: tahoma;
+  font-size: 8pt;
+}
+a.menu_links {
+  text-decoration: none;
+}
+a.menu_links:hover { 
+  text-decoration: underline;
+}
+
+table        { font-family: Tahoma; font-size: 8pt }
+textarea     { font-family: Tahoma; font-size: 8pt; color: #000000; border: 1px solid #DDDDDD; background-color: #F8F8F8 }
+input        { font-family: Tahoma; font-size: 8pt; color: #000000; border: 1px solid #DDDDDD; background-color: #F8F8F8 }
+BODY {
+SCROLLBAR-ARROW-COLOR:#DDDDDD;
+SCROLLBAR-BASE-COLOR:#CCCCCC;
+SCROLLBAR-DARKSHADOW-COLOR:#DDDDDD;
+SCROLLBAR-FACE-COLOR:#EEEEEE;
+SCROLLBAR-HIGHLIGHT-COLOR:#DDDDDD;
+SCROLLBAR-SHADOW-COLOR:#BBBBBB;
+SCROLLBAR-TRACK-COLOR:#FFFFFF;
+}
+
+A:link { COLOR: #000000; TEXT-DECORATION: none }
+A:visited { COLOR: #000000; TEXT-DECORATION: none }
+A:hover { COLOR: #5F697C; TEXT-DECORATION: underline }
+
+.loginFields	{ font-family: Tahoma; font-size: 8pt; color: #FFFFFF; border: 1px solid #3E475A; background-color: #969CAB }
+.loginSubmit	{ font-family: tahoma; font-size: 8pt; border: 1px solid #DDDDDD; background-color: #F2F2F2; }
+.collapseBorder	{ border-collapse: collapse; }
+.menuBackground	{ background-color: #F7F7F7; }
+
+.tableHead	{ border: 1px solid #70798D; }
+.tableTitle	{ background-color: #70798D; height:20; border: 1px solid #70798D; }
+.altFont        { font-family: Tahoma; font-size: 8pt; color: #5F697C }
+.mainBg		{ background-color: #70798D; }
+.loginBox	{ font-family: Tahoma; font-size: 8pt; color: #FFFFFF; border: 1px solid #FFFFFF; background-color: #969CAB; }
+.loginButton	{ font-family: Tahoma; font-size: 8pt; color: #FFFFFF; font-weight: bold; border: 1px solid #FFFFFF; background-color: #969CAB; }
+/*
+     FILE ARCHIVED ON 17:52:23 Oct 17, 2005 AND RETRIEVED FROM THE
+     INTERNET ARCHIVE ON 03:48:45 May 22, 2021.
+     JAVASCRIPT APPENDED BY WAYBACK MACHINE, COPYRIGHT INTERNET ARCHIVE.
+
+     ALL OTHER CONTENT MAY ALSO BE PROTECTED BY COPYRIGHT (17 U.S.C.
+     SECTION 108(a)(3)).
+*/
+/*
+playback timings (ms):
+  LoadShardBlock: 48.85 (3)
+  load_resource: 77.726
+  exclusion.robots: 0.196
+  PetaboxLoader3.datanode: 60.492 (4)
+  esindex: 0.013
+  PetaboxLoader3.resolve: 57.243
+  exclusion.robots.policy: 0.182
+  CDXLines.iter: 15.442 (3)
+  RedisCDXSource: 1.587
+  captures_list: 68.941
+*/
